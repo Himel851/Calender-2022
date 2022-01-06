@@ -1,0 +1,119 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-transform: capitalize;
+    font-size: 20px;
+
+}
+
+.container{
+    width: 80%;
+    margin: auto;
+    background:#8f8fdd4d;
+     border-radius: 70px;    
+}
+
+.title h1{
+    font-size: 100px;
+    text-align: center;
+    background: black;
+    color: white;
+    border-radius: 80px 80px 0px 0px;
+}
+
+.month{
+    width:28%;
+    background-color:white;
+    padding: 10px;
+    border-radius: 30px;
+    overflow: hidden;
+    padding-bottom: 30px;
+   
+    margin: 10px 25px;
+    display: inline-block;
+}
+
+.month h5{
+    text-align: center;
+    font-size: 25px;
+    margin: 5px 0px;
+    padding: 0;
+    background: black;
+    color: white;
+    border-radius: 10px;
+}
+
+.day{
+    margin: 11px 0px;
+}
+
+.month .day span{
+    margin: 0px 2px;
+    
+}
+
+.month .serial{
+    width: 280px;
+    margin-left: 10px   
+}
+
+.month .serial span{
+    margin-right: 15px;
+    
+}
+
+.holiday{
+    color: red;
+}
+
+.month .serial .january{
+    margin-left: 241px;
+}
+
+.month .serial .february{
+    margin-left: 80px;
+}
+
+.month .serial .march{
+    margin-left: 80px;
+}
+
+.month .serial .april{
+    margin-left: 203px;
+}
+.month .serial .may{
+    margin-left: 0px;
+}
+.month .serial .june{
+    margin-left: 121px;
+}
+.month .serial .july{
+    margin-left: 203px;
+}
+.month .serial .august{
+    margin-left: 42px;
+}
+.month .serial .september{
+    margin-left: 161px;
+}
+.month .serial .octobor{
+    margin-left: 240px;
+}
+.month .serial .november{
+    margin-left: 80px;
+}
+.month .serial .december{
+    margin-left: 161px;
+}
+
+/*----------------footer----------------*/
+.footer p{
+    font-size: 50px;
+     background: black;
+    color: white;
+    text-align: center;
+    border-radius: 0px 0px 80px 80px;
+}
+
